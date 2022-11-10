@@ -1,7 +1,4 @@
-// let cancel=true
-// function abc(){
-// 	cancel=false
-// }
+
 const createOrderCard = (orderId,totalCost,size) => {
 
 
@@ -112,39 +109,3 @@ cardFooterDiv.innerText = new Date().toLocaleDateString("en-US", {
 }
 
 
-/* <div class="col-md-3">
-				<div class="card text-center">
-					<div class="card-header">
-						Order No.: MP2022
-						<i class="fa-solid fa-xmark cancel-btn"></i>
-					</div>
-					<div class="card-body">
-						<table class="table">
-							
-							<tbody>
-							  <tr>
-								<th scope="row">1</th>
-								<td>Large Pizza</td>
-								<td>$15</td>
-								
-							  </tr>
-							  <tr>
-								<th scope="row">2</th>
-								<td>Medium Pizza</td>
-								<td>$12</td>
-								
-							  </tr>
-							  <tr>
-								<th scope="row" colspan="2">Total</th>
-								<td colspan="2">$27</td>
-								
-							  </tr>
-							</tbody>
-						  </table>
-						<span class="badge rounded-pill bg-success">Order placed</span>
-					</div>
-					<div class="card-footer">
-						23-09-2022 09:47:36 PM
-					</div>
-				</div>
-				</div>*/
